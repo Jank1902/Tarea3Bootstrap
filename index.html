@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetado Responsivo - Bootstrap 5</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Rally Dakar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Historia</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Galería</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- CAROUSEL -->
+<div id="carouselDakar" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/header.jpg" class="d-block w-100" alt="Rally Dakar">
+        </div>
+        <div class="carousel-item">
+            <img src="img/img1.jpg" class="d-block w-100" alt="Rally Dakar">
+        </div>
+    </div>
+</div>
+
+<!-- CONTENEDOR PRINCIPAL -->
+<div class="container mt-5">
+
+    <!-- TEXTO REFERENCIAL -->
+    <div class="row mb-4">
+        <div class="col text-center">
+            <p class="fs-5">
+                El Rally Dakar es la competición de motor “rally raid” o campo a través
+                más dura y famosa del mundo.
+            </p>
+        </div>
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="row mb-4">
+        <div class="col bg-light p-4 text-center">
+            <h3>Contenido</h3>
+        </div>
+    </div>
+
+    <!-- ARTÍCULOS -->
+    <div class="row mb-4">
+        <div class="col-md-6 mb-3">
+            <div class="p-3 bg-secondary text-white h-100">
+                Origen y Evolución: Fundado en 1978 por Thierry Sabine como el
+                "París-Dakar". Se trasladó a Sudamérica (2009-2019) y desde 2020
+                se disputa en Arabia Saudita.
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <div class="p-3 bg-dark text-white h-100">
+                Categorías: Se compite en coches, motos, camiones, quads y la
+                categoría Dakar Classic para vehículos históricos.
+            </div>
+        </div>
+    </div>
+
+    <!-- IMÁGENES -->
+    <div class="row text-center mb-4">
+        <div class="col-6 col-md-3 mb-3">
+            <img src="img/img1.jpg" class="img-fluid rounded" alt="Imagen 1">
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+            <img src="img/img2.jpg" class="img-fluid rounded" alt="Imagen 2">
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+            <img src="img/img3.jpg" class="img-fluid rounded" alt="Imagen 3">
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+            <img src="img/img4.jpg" class="img-fluid rounded" alt="Imagen 4">
+        </div>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white py-3">
+    <div class="container d-flex justify-content-between">
+        <div>Rally Dakar</div>
+        <div>Rally Dakar</div>
+    </div>
+</footer>
+
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
